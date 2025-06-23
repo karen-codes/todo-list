@@ -106,7 +106,7 @@ body {
   
   .tarea-card .prioridad {
     font-weight: bold;
-    color: #dc3545; /* Rojo para urgente, etc. Se puede refinar con JS */
+    color: #dc3545; 
   }
   
   @media (max-width: 768px) {
