@@ -69,3 +69,21 @@ function renderizarTareas() {
         contenedorTareas.appendChild(tareaCard);
     });
 }
+
+
+function obtenerColorPrioridad(prioridad) {
+    switch (prioridad) {
+        case 'urgente':
+            return '#dc3545'; 
+        case 'normal':
+            return '#ffc107'; 
+        case 'baja':
+            return '#17a2b8'; 
+        default:
+            return '#333';
+    }
+}
+
+tareaForm.addEventListener('submit', validarFormulario);
+
+renderizarTareas();
